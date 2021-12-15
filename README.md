@@ -1,7 +1,7 @@
 # Karmada-dashboard
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kubernetes/dashboard/blob/master/LICENSE)
 
-Karmada Dashboard is a general purpose, web-based UI for Karmada which is a multi-cluster management project.
+Karmada Dashboard is a general purpose, web-based control panel for Karmada which is a multi-cluster management project.
 ![image](docs/images/dashboard.png)
 
 ## Latest release
@@ -14,8 +14,8 @@ Karmada Dashboard is a general purpose, web-based UI for Karmada which is a mult
 #### Karmada
 A Karmada cluster which can be installed by this [tutorial](https://github.com/karmada-io/karmada/blob/master/README.md#install-karmada-control-plane)
 
-#### Node
-The current version of Karmada-dashboard requires node with version >= 8,recommended version is 8.17.0
+#### NodeJS
+The current version of Karmada-dashboard requires nodejs with version >= 8
 
 ---
 ### Install Karmada-dashboard
