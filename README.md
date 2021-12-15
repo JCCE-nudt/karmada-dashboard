@@ -1,16 +1,18 @@
-# KARMADA-DASHBOARD
+# Karmada-dashboard
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kubernetes/dashboard/blob/master/LICENSE)
 
 Karmada Dashboard is a general purpose, web-based UI for Karmada which is a multi-cluster management project.
 ![image](docs/images/dashboard.png)
 
-## 🚀QuickStart
+## Latest release
+🎉 This is the first release for Karmada-dashboard ! 
 
+## 🚀QuickStart
 
 ### Prerequisites
 
 #### Karmada
-A karamada cluster which can be installed by this [tutorial](https://github.com/karmada-io/karmada/blob/master/README.md#install-karmada-control-plane)
+A Karmada cluster which can be installed by this [tutorial](https://github.com/karmada-io/karmada/blob/master/README.md#install-karmada-control-plane)
 
 #### Node
 The current version of Karmada-dashboard requires node with version >= 8,recommended version is 8.17.0
@@ -23,12 +25,11 @@ The current version of Karmada-dashboard requires node with version >= 8,recomme
 export KUBECONFIG="$HOME/.kube/karmada.config"
 kubectl config use-context karmada-host
 ```
-#### 2.Deploy karmada-dashboard
+#### 2.Deploy Karmada-dashboard
 ```bash
-
 kubectl apply -f https://raw.githubusercontent.com/JCCE-nudt/karmada-dashboard/main/deploy/karmada-dashboard.yaml
 ```
-When finish karmada-dashboard is able to access by http://your-karmada-host:30486 
+When finish Karmada-dashboard is able to access by http://your-karmada-host:30486 
 
 you still need to create an authentication token to access the dashboard.
 
@@ -57,7 +58,7 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6InZLdkRNclVZSFB6SUVXczBIRm8zMDBxOHFOanQxbWU4WUk1VVVp
 ```
 
 ### Login Dashboard
-Now open karmada-dashboard with url [http://your-karmada-host:30486 ]()
+Now open Karmada-dashboard with url [http://your-karmada-host:30486 ]()
 
 copy the token you just generated and paste it into the Enter token field on the login page.
 ![image](docs/images/login.png)
@@ -70,4 +71,4 @@ please feel free to submit issues and prs to our repository.
 
 ## License
 
-Karmada is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
+Karmada-dashboard is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
