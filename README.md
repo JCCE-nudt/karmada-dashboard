@@ -4,7 +4,7 @@
 Karmada Dashboard is a general purpose, web-based UI for Karmada which is a multi-cluster management project.
 ![image](docs/images/dashboard.png)
 
-## QuickStart
+## 🚀QuickStart
 
 
 ### Prerequisites
@@ -18,7 +18,7 @@ The current version of Karmada-dashboard requires node with version >= 8,recomme
 ---
 ### Install Karmada-dashboard
 
-#### 1.Switch context to karmada-host
+#### 1.Switch user-context to karmada-host
 ```bash
 export KUBECONFIG="$HOME/.kube/karmada.config"
 kubectl config use-context karmada-host
@@ -28,14 +28,18 @@ kubectl config use-context karmada-host
 
 kubectl apply -f https://raw.githubusercontent.com/JCCE-nudt/karmada-dashboard/main/deploy/karmada-dashboard.yaml
 ```
-when finish karmada-dashboard is able to access by http://karmada-host:30486 ,you still need to create an authentication token to access the dashboard.
+When finish karmada-dashboard is able to access by http://your-karmada-host:30486 
+
+you still need to create an authentication token to access the dashboard.
 
 #### 3.Create Service Account
 
-To access dashboard，Service Account need to be created by executing commands below：
-
+switch user-context to karmada-apiserver:
 ```bash
 kubectl config use-context karmada-apiserver
+```
+Create Service Account:
+```bash
 kubectl apply -f  https://raw.githubusercontent.com/JCCE-nudt/karmada-dashboard/main/deploy/karmada-dashboard-role.yaml
 ```
 
@@ -59,7 +63,7 @@ copy the token you just generated and paste it into the Enter token field on the
 ![image](docs/images/login.png)
 
 ---
-## Contributing
+## 💻Contributing
 This  project is just getting started, we are happy to see more contributors to join us.
  
 please feel free to submit issues and prs to our repository.
