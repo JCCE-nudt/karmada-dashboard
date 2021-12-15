@@ -59,6 +59,11 @@ copy the token you just generated and paste it into the Enter token field on the
 ![image](docs/images/login.png)
 
 ---
+## Contributing
+This  project is just getting started, we are happy to see more contributors to join us.
+ 
+please feel free to submit issues and prs to our repository.
+
 ## License
 
 Karmada is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
