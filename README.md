@@ -54,6 +54,7 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6InZLdkRNclVZSFB6SUVXczBIRm8zMDBxOHFOanQxbWU4WUk1VVVp
 
 ### Login Dashboard
 Now open karmada-dashboard with url [http://your-karmada-host:30486 ]
+
 copy the token you just generated and paste it into the Enter token field on the login page.
 ![image](docs/images/login.png)
 
